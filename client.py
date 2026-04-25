@@ -5,6 +5,8 @@ SERVER_PORT = 9999
 BUFFER_SIZE = 1024
 TIMEOUT     = 5
 
+###
+
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 client_socket.settimeout(TIMEOUT)
 
