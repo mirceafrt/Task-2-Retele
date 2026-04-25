@@ -6,6 +6,8 @@ BUFFER_SIZE = 1024
 
 clienti_conectati = {}
 
+###
+
 mesaje = {} 
 contor_id = 1 
 
@@ -99,3 +101,4 @@ while True:
 
 server_socket.close()
 print("[SERVER] Socket inchis.")
+
